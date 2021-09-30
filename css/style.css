@@ -80,4 +80,42 @@ main{
     border: 2px solid green;
 }
 /* footer */
+footer {
+    display: flex;
+    justify-content: space-between;
+    background-color:rgb(41, 40, 40) ;
+    color: white;
 
+}
+
+footer div {
+    padding: 10px;
+    /* debug */
+    /* background-color: green; */
+    /* border: 2px solid yellow; */
+}
+
+.tool-bar{
+    display: flex;
+    align-items: center;
+}
+
+#green {
+    color: green;
+}
+
+#red{
+    background-color: red;
+    padding: 10px;
+}
+
+footer i {
+    font-size: 30px;
+    position: relative;
+    margin: 0 20px;
+}
+
+.fa-angle-up{
+    font-size: 10px;
+    position: absolute;
+}
