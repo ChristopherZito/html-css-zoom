@@ -22,7 +22,62 @@ header div{
     background-color: rgb(34, 31, 31);
 }
 /* main */
+main{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+/* lati */
+.side i{
+    font-size: 40px ;
+}
+.side div {
+    color: white;
+}
 
+#blu{
+    color: blue;
+}
 
+/* pagina centrale */
+#webcam {
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    height: calc(100vh - 150px);
+}
+
+.web-img{
+    position: relative;
+}
+.web-img img{
+    width: 250px;
+    height: 100px;
+}
+.name {
+    position: absolute;
+    bottom: 15px;
+    left: 0px;
+    padding: 5px 10px;
+    background-color: rgba(75, 75, 75, 0.5);
+}
+/* microfono */
+.fa-microphone-alt{
+    position: relative;
+    margin-right: 10px;
+}
+
+.fa-slash{
+    color: red;
+    position: absolute;
+    top: 0;
+    left: -4px; 
+}
+
+.talk {
+    border: 2px solid green;
+}
 /* footer */
 
