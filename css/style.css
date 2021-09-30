@@ -47,6 +47,7 @@ main{
     justify-content:space-around;
     flex-wrap: wrap;
     height: calc(100vh - 150px);
+    overflow-y: hidden;
 }
 
 .web-img{
@@ -90,6 +91,7 @@ footer {
 
 footer div {
     padding: 10px;
+    text-align: center;
     /* debug */
     /* background-color: green; */
     /* border: 2px solid yellow; */
